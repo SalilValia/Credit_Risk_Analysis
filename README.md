@@ -13,14 +13,22 @@ For RandomOverSampler
 
 The balanced accuracy score is 64%.
 The high_risk precision is about 1% only with 61% sensitivity makes the F1 of 2% only.
-With the high number of the low_risk population, its precision is almost 100% with a sensitivity of 67%.
+With the high number of the low_risk population, its precision is 100% with a sensitivity of 67%.
 
 For the SMOTE model
 
 ![image](https://user-images.githubusercontent.com/111409181/213950247-d63ed349-6261-41f5-af94-a6cca63bcb85.png)
 
+The results were pretty similar to the RandomOverSampler model
 The balanced accuracy score is 63%.
 The high_risk precision is about 1% only with 60% sensitivity makes the F1 of 2% only.
-With the high number of the low_risk population, its precision is almost 100% with a sensitivity of 66%.
+With the high number of the low_risk population, its precision is 100% with a sensitivity of 66%.
+
+For the ClusterCentroids model
+
+![image](https://user-images.githubusercontent.com/111409181/213950959-e0c2a2fb-a147-4fc2-93d2-feb292696445.png)
 
 
+The balanced accuracy score is 63%.
+The high_risk precision is about 1% only with 61% sensitivity makes the F1 of 1% only.
+With the high number of the low_risk population, its precision is 100% with a sensitivity of 45%.
