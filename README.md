@@ -42,6 +42,9 @@ The balanced accuracy score is 64%.
 The high_risk precision is about 1% only with 69% sensitivity makes the F1 of 2% only.
 With the high number of the low_risk population, its precision is 100% with a sensitivity of 60%.
 
+For the BalancedRandomForestClassifier model
+
+![image](https://user-images.githubusercontent.com/111409181/213952712-e2b53ccf-2f26-4573-9ab0-4fe137e93174.png)
 
 
 
