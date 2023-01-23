@@ -61,6 +61,4 @@ The high_risk precision is about 7% only with 91% sensitivity makes the F1 of 14
 With the high number of the low_risk population, its precision is 100% with a sensitivity of 94%.
 
 ## Summary 
-The models we used to perform the credit risk analysis show weak precision in determining if a credit risk is high.
-The EasyEnsembleClassifier model shows a recall of 91% so it will notify us of it being a high risk credit. Although, with a low precision, a lot of low risk credits are still noticeable as high risk which would penalize the bank's credit strategy and effect on their revenue by not taking those business opportunities.
-Therefore, I would suggest the bank to not use any of these models to predict credit risk.
+Overall the data does not seem to useful in predicting if a credit card applicant is high risk. The models we used to perform the credit risk analysis show weak precision in determining if a credit risk is high. The EasyEnsembleClassifier model shows a recall of 91% so it will notify us of it being a high risk credit. Although, with a low precision, a lot of low risk credits are still noticeable as high risk which would penalize the bank's credit strategy and effect on their revenue by not taking those business opportunities. Therefore, I would suggest the bank to not use any of these models to predict credit risk.
